@@ -4,7 +4,6 @@ $(document).ready(function(){
     var client = new ZeroClipboard($("#lorem-copy, #twitter-copy, #youtube-copy, #vimeo-copy, #soundcloud-copy, #facebook-copy"), {
          moviePath: "./ZeroClipboard.swf"
     });
-
     client.on( "load", function(client) {
         client.on( "complete", function(client, args) {
         // `this` is the element that was clicked
@@ -13,14 +12,12 @@ $(document).ready(function(){
         });
     });
     
-
-    
     $.getJSON("data.json", function(json) {
         
         var update = function(site){
-        var selection = $("#" + site + "-select").val();
-        $("#" + site + "-embed").html((json["embeds"][site][selection]));
-        $("#" + site + "-textarea").val((json["embeds"][site][selection]));
+            var selection = $("#" + site + "-select").val();
+            $("#" + site + "-embed").html((json["embeds"][site][selection]));
+            $("#" + site + "-textarea").val((json["embeds"][site][selection]));
         };
  
         $('#youtube-embed').html((json["embeds"]["youtube"]["clips"]));

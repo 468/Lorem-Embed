@@ -1,5 +1,3 @@
-
-
 textarea{
     background-color:snow;
     width:500px;
@@ -8,19 +6,6 @@ textarea{
 
 iframe{
     max-width:100%;
-}
-
-#intro{
-    color:snow;
-    background-color:#222;
-    font-family: 'Alegreya SC', serif;
-    text-align: center;
-    padding: 0 0 35px 0;
-    border-bottom: solid 5px #FF7878;
-}
-
-.centered{
-    text-align:center;
 }
 
 h3{
@@ -44,6 +29,10 @@ footer a:hover {
  font-weight:bold;
 }
 
+.centered{
+    text-align:center;
+}
+
 .right{
     text-align:left;
 }
@@ -62,14 +51,22 @@ footer a:hover {
 	text-align:center;
 }
 
+#intro{
+    color:snow;
+    background-color:#222;
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    padding: 0 0 35px 0;
+    border-bottom: solid 5px #fff;
+}
+
 
 #twitter{background-color: #A6D0FF;}
-#lorem{background-color:snow;}
 #youtube{background-color:#f9a9af;}
 #vimeo{background-color:#a6e3f7;}
-#soundcloud{background-color:#ff944d;}
+#soundcloud{background-color:#ffb88e;}
 #vine{background-color:#c0ffef;}
-#facebook{background-color:#a8b9dd;}
+#facebook{background-color:#E4EAF4;}
 #instagram{background-color:#dcd2c0;}
 #pinterest{background-color:#EA888B;}
 
@@ -90,7 +87,7 @@ select{
 }
 
 
-/* resizing */
+/* embed resizing */
 
 #soundcloud-embed{
     padding: 0 5%;
