@@ -1,0 +1,101 @@
+
+
+textarea{
+    background-color:snow;
+    width:500px;
+    min-height:150px;
+}
+
+iframe{
+    max-width:100%;
+}
+
+#intro{
+    color:snow;
+    background-color:#222;
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    padding: 0 0 35px 0;
+    border-bottom: solid 5px #FF7878;
+}
+
+.centered{
+    text-align:center;
+}
+
+h3{
+    font-family: arial, sans-serif;
+    font-weight: bold;
+
+    font-size: 1.2em;
+}
+
+footer{
+    padding:25px;
+    background-color:#222;
+    color:snow;
+    text-align:center;
+}
+
+footer a:link, 
+footer a:visited, 
+footer a:hover { 
+ color: snow;
+ font-weight:bold;
+}
+
+.right{
+    text-align:left;
+}
+
+.smalltext{
+    font-size:0.7em;
+    padding:0;
+    margin:0;
+}
+
+#fb-reminder{
+    font-size:0.75em;
+}
+
+#top-dropdown{
+	text-align:center;
+}
+
+
+#twitter{background-color: #A6D0FF;}
+#lorem{background-color:snow;}
+#youtube{background-color:#f9a9af;}
+#vimeo{background-color:#a6e3f7;}
+#soundcloud{background-color:#ff944d;}
+#vine{background-color:#c0ffef;}
+#facebook{background-color:#a8b9dd;}
+#instagram{background-color:#dcd2c0;}
+#pinterest{background-color:#EA888B;}
+
+/* min fwk overwrites */
+
+select{
+    display:inline;
+    margin-top:15px;
+}
+.row{
+    padding: 45px;
+}
+
+/* ensure twitter widget is centered */
+
+.twitter-tweet{
+    display: inline !important;
+}
+
+
+/* resizing */
+
+#soundcloud-embed{
+    padding: 0 5%;
+}
+
+#instagram-embed{
+    padding: 0 25%;
+}

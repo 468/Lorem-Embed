@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <title>
+            Lorem Embed - Placeholders for Youtube, Twitter, Facebook, etc
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/ZeroClipboard.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/libs/min/entireframework.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+    </head>
+
+    
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <header class="row" id="intro">
+            <h1 class="col c12">
+        	Lorem Embed
+            </h1>
+            <h3 class="centered">
+                A collection of reasonably neutral placeholder embeddables for webdevs/designers.
+            </h3>
+        </header>
+
+        <main class='centered'>
+
+	<div class="row" id="twitter">
+            <div class="col c6 left">
+                <div id='twitter-embed'>
+                </div>
+                <form id='twitter-form'>
+                    <select name="tweet choice" id='twitter-select'>
+                        <option value="tweet">Tweet One</option>
+                        <option value="tweet2">Tweet Two</option>
+                        <option value='tweet3'>Tweet Three</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="twitter-right">
+                <p><textarea id="twitter-textarea" name="twitter"></textarea></p>
+                <p><button id="twitter-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="twitter-textarea">Copy</button></p> 
+            </div>
+	</div>
+            
+        <div class="row" id="facebook">
+            <div class="col c6 left">
+                <div id="facebook-embed">          
+                </div>
+                <form id='facebook-form'>
+                    <select name="facebook post" id='facebook-select'>
+                        <option value="pagepost">Page post</option>
+                        <option value="profilepost">Profile post</option>
+                        <option value="likebox">Like Box</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="facebook-right">
+                <p><textarea id="facebook-textarea" name="facebook"></textarea></p>
+                <p id='fb-reminder'>*Remember to include the <a href="https://developers.facebook.com/docs/javascript/quickstart/v2.1">Facebook JavaScript SDK</a> once on your page.</p>
+                <p><button id="facebook-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="facebook-textarea">Copy</button></p>
+            </div>
+	</div>
+
+	<div class="row" id="youtube">
+            <div class="col c6 left">
+                <div id='youtube-embed'>
+                </div>
+                <span class='smalltext'><a href="credits.html">Footage credits</a></span>
+                
+                <form>
+                    <select name="youtube-video" id="youtube-select">
+                        <option value="clips" selected >Clips</option>
+                        <option value="colors">Colors</option>
+                        <option value="blank">Blank</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="youtube-right">
+                <p><textarea id="youtube-textarea" name="twitter"></textarea></p>
+                <p><button id="youtube-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="youtube-textarea">Copy</button></p>
+            </div>
+	</div>
+
+	<div class="row" id="vimeo">
+            <div class="col c6 left">
+                <div id="vimeo-embed">       
+                </div>
+                <span class='smalltext'><a href="credits.html">Footage credits</a></span>
+                <form id='vimeo-form'>
+                    <select name="vimeo-video" id='vimeo-select'>
+                        <option value="clips" selected>Clips</option>
+                        <option value="colors">Colors</option>
+                        <option value="blank">Blank</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="vimeo-right">
+                <p><textarea id="vimeo-textarea" name="vimeo"></textarea></p>
+                <p><button id="vimeo-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="vimeo-textarea">Copy</button></p>
+            </div>
+        </div>
+        
+        <div class="row" id="vine">
+            <div class="col c6 left">
+            <div id="vine-embed">          
+            </div>
+                <form id='vine-form'>
+                    <select name="vine-video" id='vine-select'>
+                        <option value="simple" selected>Simple</option>
+                        <option value="postcard">Postcard</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="vine-right">
+                <p><textarea id="vine-textarea" name="vine"></textarea></p>
+                <p><button id="vine-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="vine-textarea">Copy</button></p>
+            </div>
+	</div>
+            
+        <div class="row" id="soundcloud">
+            <div class="col c6 left">
+                <div id="soundcloud-embed">          
+                </div>
+                <form id='soundcloud-form'>
+                    <select name="soundcloud-song" id='soundcloud-select'>
+                        <option value="bach-classic" selected>Classic Embed</option>
+                        <option value="bach-visual">Visual Embed</option>
+                        <option value="newage">New Age Classic Embed</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="soundcloud-right">
+                <p><textarea id="soundcloud-textarea" name="soundcloud"></textarea></p>
+                <p><button id="soundcloud-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="soundcloud-textarea">Copy</button></p>
+            </div>
+	</div>
+        
+        
+        <div class="row" id="instagram">
+            <div class="col c6 left">
+            <div id="instagram-embed">          
+            </div>
+            <form id='instagram-form'>
+                    <select name="instagram-image" id='instagram-select'>
+                        <option value="mona">Mona</option>
+                        <option value="sunset">Sunset</option>
+                        <option value="blank">Blank</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="instagram-right">
+                <p><textarea id="instagram-textarea" name="instagram"></textarea></p>
+                <p><button id="instagram-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="instagram-textarea">Copy</button></p>
+            </div>
+	</div>
+
+        <div class="row" id="pinterest">
+            <div class="col c6 left">          
+                <div id="pinterest-embed">
+                </div>
+                <form id='pinterest-form'>
+                    <select name="pinterest-embed-type" id="pinterest-select">
+                        <option value="pinwidget">Pin Widget</option>
+                        <option value="boardwidget">Board Widget</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col c6 right" id="pinterest-right">
+                <p><textarea id="pinterest-textarea" name="pinterest"></textarea></p>
+                <p><button id="pinterest-copy" class="copy btn btn-a btn-sm smooth" data-clipboard-target="pinterest-textarea">Copy</button></p>
+            </div>
+	</div>
+            
+        </main>
+        <footer>
+            <p><a href='#'><img src="img/GitHub-Mark-Light-64px.png" alt="Github Logo"/></a></p>
+            <p><a href='credits.html'>Attributions</a></p>
+        </footer>
+    </body>
+
+</html>
