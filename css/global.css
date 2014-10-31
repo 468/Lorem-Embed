@@ -33,10 +33,6 @@ footer a:hover {
     text-align:center;
 }
 
-.right{
-    text-align:left;
-}
-
 .smalltext{
     font-size:0.7em;
     padding:0;
@@ -57,7 +53,6 @@ footer a:hover {
     font-family: 'Alegreya SC', serif;
     text-align: center;
     padding: 0 0 35px 0;
-    border-bottom: solid 5px #fff;
 }
 
 
