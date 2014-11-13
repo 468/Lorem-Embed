@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     //zeroclipboard setup
-    var client = new ZeroClipboard($("#lorem-copy, #twitter-copy, #youtube-copy, #vimeo-copy, #soundcloud-copy, #facebook-copy"), {
+    var client = new ZeroClipboard($("#lorem-copy, #twitter-copy, #vine-copy,#instagram-copy,#pinterest-copy, #youtube-copy, #vimeo-copy, #soundcloud-copy, #facebook-copy"), {
          moviePath: "./ZeroClipboard.swf"
     });
     client.on( "load", function(client) {
