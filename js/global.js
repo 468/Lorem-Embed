@@ -50,6 +50,7 @@ $(document).ready(function(){
             update('soundcloud');
         });
         
+        // requires page reload to change embed type -- updated choice stored in local storage
         var instagram_selection = localStorage.getItem("instagram_selection") || "mona";
         $('#instagram-embed').html((json["embeds"]["instagram"][instagram_selection]));
         $('#instagram-textarea').val((json["embeds"]["instagram"][instagram_selection]));
@@ -67,7 +68,8 @@ $(document).ready(function(){
             FB.XFBML.parse();
         });
         
-        var pinterest_selection = localStorage.getItem("pinterest_selection") || "boardwidget";
+        // requires page reload to change embed type -- updated choice stored in local storage
+        var pinterest_selection = localStorage.getItem("pinterest_selection") || "pinwidget";
         $('#pinterest-embed').html((json["embeds"]["pinterest"][pinterest_selection]));
         $('#pinterest-textarea').val((json["embeds"]["pinterest"][pinterest_selection]));
         $('#pinterest-select').val(pinterest_selection);
