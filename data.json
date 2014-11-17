@@ -1,9 +1,9 @@
 {"embeds": {
     
     "youtube": {
-        "clips": "<iframe width='560' height='315' src='//www.youtube.com/embed/PBXS0f7GqA0?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>",
-        "colors": "<iframe width='560' height='315' src='//www.youtube.com/embed/HelnM33rZ3w' frameborder='0' allowfullscreen></iframe>",
-        "blank": "<iframe width='560' height='315' src='//www.youtube.com/embed/ZpP1Nkwbp90' frameborder='0' allowfullscreen></iframe>"
+        "clips": "<iframe width='560' height='315' src='//www.youtube.com/embed/PBXS0f7GqA0?rel=0' frameborder='0' allowfullscreen></iframe>",
+        "colors": "<iframe width='560' height='315' src='//www.youtube.com/embed/HelnM33rZ3w?rel=0' frameborder='0' allowfullscreen></iframe>",
+        "blank": "<iframe width='560' height='315' src='//www.youtube.com/embed/ZpP1Nkwbp90?rel=0' frameborder='0' allowfullscreen></iframe>"
     },
     "vimeo": {
         "clips": "<iframe src='//player.vimeo.com/video/110094203' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href='http://vimeo.com/110094203'>Lorem Ipsum</a> from <a href='http://vimeo.com/user33622400'>Lorem Ipsum</a> on <a href='https://vimeo.com'>Vimeo</a>.</p>",
